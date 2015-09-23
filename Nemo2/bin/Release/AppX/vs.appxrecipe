@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MAHARJANK</Machine>
+    <WindowsUser>Kishor</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>55446KishorMaharjan.FindingNemoTheGame</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\obj\Release\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>3C5643DDAD547DE199BE8ABB566C08BFD4DCE9C0EB9F20F708B5532F54C9BE75</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>55446KishorMaharjan.FindingNemoTheGame_1.1.0.0_neutral__x5q2nd5w84jh8</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>55446KishorMaharjan.FindingNemoTheGame_x5q2nd5w84jh8!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>55446KishorMaharjan.FindingNemoTheGame</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=16BE8191-55F4-4F60-9280-9615F0049090</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T13:33:41.457</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\Nemo2.exe">
+      <PackagePath>Nemo2.exe</PackagePath>
+      <Modified>2014-11-23T01:43:16.299</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\101.png">
+      <PackagePath>Assets\101.png</PackagePath>
+      <Modified>2014-11-06T10:09:44.127</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\102.png">
+      <PackagePath>Assets\102.png</PackagePath>
+      <Modified>2014-11-06T10:09:44.172</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\103.png">
+      <PackagePath>Assets\103.png</PackagePath>
+      <Modified>2014-11-06T10:09:44.182</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\104.png">
+      <PackagePath>Assets\104.png</PackagePath>
+      <Modified>2014-11-06T10:09:44.192</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\105.png">
+      <PackagePath>Assets\105.png</PackagePath>
+      <Modified>2014-11-06T10:09:44.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\109.png">
+      <PackagePath>Assets\109.png</PackagePath>
+      <Modified>2014-11-06T15:29:24.489</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\BGimage.png">
+      <PackagePath>Assets\BGimage.png</PackagePath>
+      <Modified>2014-11-06T10:11:32.861</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\Bubble-clip-art-15.png">
+      <PackagePath>Assets\Bubble-clip-art-15.png</PackagePath>
+      <Modified>2014-11-07T05:55:19.387</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:41:47.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\nemo.png">
+      <PackagePath>Assets\nemo.png</PackagePath>
+      <Modified>2014-11-07T12:44:14.032</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\nemoFinal.png">
+      <PackagePath>Assets\nemoFinal.png</PackagePath>
+      <Modified>2014-11-06T10:09:44.281</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:43:14.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:41:02.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-11-07T12:42:59.956</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\nemoFinal.png">
+      <PackagePath>nemoFinal.png</PackagePath>
+      <Modified>2014-11-06T10:33:25.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-11-07T13:24:42.724</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\blank1.xbf">
+      <PackagePath>blank1.xbf</PackagePath>
+      <Modified>2014-11-23T01:43:15.697</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\finalpage.xbf">
+      <PackagePath>finalpage.xbf</PackagePath>
+      <Modified>2014-11-07T13:24:42.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-11-07T13:24:42.737</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\Nemo2.xr.xml">
+      <PackagePath>Nemo2.xr.xml</PackagePath>
+      <Modified>2014-11-14T10:03:11.667</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Kishor\Documents\Visual Studio 2013\Projects\Nemo2\Nemo2\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-11-07T13:33:41.241</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

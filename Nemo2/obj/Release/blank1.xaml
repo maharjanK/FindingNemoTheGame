@@ -1,0 +1,331 @@
+﻿<Page
+    x:Class="Nemo2.blank1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Nemo2"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <Storyboard x:Name="animate1" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="dump1_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="43.284"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="68.657"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="101.493"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="161.195"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="217.911"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="270.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="328.359"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="377.613"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="438.807"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="510.449"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="580.598"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="658.21"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="734.329"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="804.478"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="895.523"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="943.284"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="991.045"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="1059.702"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="1119.403"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="1188.06"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="1240.299"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="dump1_Copy2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-28.358"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-65.671"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-29.85"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-61.193"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-25.372"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-62.685"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-25.372"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-64.178"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.6" Value="-17.909"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.8" Value="-65.67"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-22.386"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.2" Value="-68.655"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.4" Value="-29.849"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="-79.103"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-35.819"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-80.595"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-35.819"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.4" Value="-86.565"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-32.834"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="-80.595"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4" Value="-35.819"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimation Duration="0:0:4" To="-186.28" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="dump1_Copy1" d:IsOptimized="True"/>
+            <DoubleAnimation Duration="0:0:4" To="-11.088" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="dump1_Copy1" d:IsOptimized="True"/>
+        </Storyboard>
+        <Storyboard x:Name="animateNemo">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="img1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="353.731"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="365.671"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="320.895"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="img1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-197.015"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="34.328"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="210.447"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animate2" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="dump1_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="31.047"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="62.094"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="115.317"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="168.54"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="212.892"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="268.333"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="348.167"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="410.26"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="461.265"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="525.576"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="572.146"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="618.716"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="669.721"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="742.903"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="dump1_Copy1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-8.87"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="8.871"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-2.217"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-13.305"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.4" Value="-4.435"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-8.87"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-31.046"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-2.217"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.6" Value="4.436"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.9" Value="-8.87"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="2.218"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.5" Value="-4.435"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.8" Value="11.088"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.1" Value="39.917"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animatebubble" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="bubble1">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-117.534"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.17" Value="8.87"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.895" Value="-119.752"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.475" Value="-11.089"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-104.229"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="bubble1">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-164.104"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.17" Value="-286.073"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.895" Value="-383.648"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.475" Value="-487.876"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-645.327"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animatebubble2" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="bubble2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-102.011"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.735" Value="-6.653"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.369" Value="-117.534"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.003" Value="17.741"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.638" Value="-88.705"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.272" Value="8.87"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.223" Value="-121.97"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.7" Value="-44.353"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="bubble2">
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-86.487"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.735" Value="-130.839"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.369" Value="-195.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.003" Value="-250.591"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.638" Value="-312.684"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.272" Value="-361.472"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.223" Value="-523.358"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.7" Value="-605.41"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animatebubble3" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="bubble3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="55.44"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-48.788"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="26.611"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-70.964"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-55.441"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="bubble3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-139.71"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="-290.508"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2" Value="-443.524"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3" Value="-629.804"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-654.198"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animate3" AutoReverse="False" RepeatBehavior="Forever">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="dump1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="31.047"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.684" Value="51.006"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.366" Value="53.224"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.216" Value="75.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.388" Value="75.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.898" Value="46.574"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.241" Value="2.218"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.582" Value="-64.31"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="2.208"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="dump1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-66.529"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.684" Value="13.305"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.366" Value="-73.182"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.216" Value="17.74"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.388" Value="17.74"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.898" Value="-15.53"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.241" Value="28.822"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.582" Value="-37.706"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="1.522"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="dump1_Copy">
+                <EasingDoubleKeyFrame KeyTime="0:0:3.216" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:3.388" Value="-1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:4.582" Value="-1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animate4" RepeatBehavior="Forever">
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="dump1">
+        		<EasingDoubleKeyFrame KeyTime="0:0:3" Value="339.845"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="339.845"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-36.882"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:7.7" Value="0"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="dump1">
+        		<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-13.172"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-13.172"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-13.172"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:7.7" Value="0"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="dump1">
+        		<EasingDoubleKeyFrame KeyTime="0:0:3" Value="1"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:3.2" Value="-1"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-1"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:7.7" Value="1"/>
+        	</DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animateShark" AutoReverse="True" RepeatBehavior="Forever">
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="dump1_Copy3">
+        		<EasingDoubleKeyFrame KeyTime="0:0:5" Value="173.874"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="173.874"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:5.3" Value="171.24"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:10.5" Value="-7.897"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="dump1_Copy3">
+        		<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-197.585"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="1359.38"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:5.3" Value="1356.746"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:10.5" Value="1077.502"/>
+        	</DoubleAnimationUsingKeyFrames>
+        	<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="dump1_Copy3">
+        		<EasingDoubleKeyFrame KeyTime="0:0:5" Value="1"/>
+        		<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-1"/>
+        	</DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="animate5">
+        	<DoubleAnimation Duration="0:0:0.3" To="5.738" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="dump1_Copy4" d:IsOptimized="True"/>
+        	<DoubleAnimation Duration="0:0:0.3" To="4.135" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="dump1_Copy4" d:IsOptimized="True"/>
+        	<DoubleAnimation Duration="0:0:0.3" To="551.919" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="dump1_Copy4" d:IsOptimized="True"/>
+        	<DoubleAnimation Duration="0:0:0.3" To="371.459" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="dump1_Copy4" d:IsOptimized="True"/>
+        </Storyboard>
+
+    </Page.Resources>
+
+    <Grid x:ConnectionId='1'                                                                          >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/BGimage.png"/>
+        </Grid.Background>
+        <Image HorizontalAlignment="Left" Height="100" Margin="297,214,0,0" VerticalAlignment="Top" Width="100"/>
+        <Image x:ConnectionId='2' x:Name="img1" HorizontalAlignment="Left" Height="33" Margin="10,241,0,0" VerticalAlignment="Top" Width="46" Source="Assets/104.png"                      RenderTransformOrigin="0.526,0.47">
+            <Image.RenderTransform>
+                <CompositeTransform ScaleX="-1"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:ConnectionId='3' x:Name="img2" HorizontalAlignment="Left" Height="31" Margin="678,301,0,0" VerticalAlignment="Top" Width="42" Source="Assets/104.png"                     />
+        <TextBlock x:Name="txtbox" HorizontalAlignment="Left" Margin="1102,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="122" Foreground="#FFEA0C0C" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="982,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="55" Width="115" Foreground="#FFF10E0E" FontSize="40">
+        	<Run Text="Score:"/>
+        	<LineBreak/>
+        	<Run/>
+        </TextBlock>
+        <Image x:ConnectionId='4' x:Name="img3" HorizontalAlignment="Left" Height="42" Margin="154,389,0,0" VerticalAlignment="Top" Width="76" Source="Assets/nemoFinal.png"                     />
+        <Image x:ConnectionId='5' x:Name="img4" HorizontalAlignment="Left" Height="46" Margin="1270,667,0,0" VerticalAlignment="Top" Width="55" Source="Assets/nemoFinal.png"                     />
+        <Image x:ConnectionId='6' x:Name="img5" HorizontalAlignment="Left" Height="27" Margin="998,431,0,0" VerticalAlignment="Top" Width="34" Source="Assets/nemoFinal.png"                     />
+        <Image x:ConnectionId='7' x:Name="img6" HorizontalAlignment="Left" Height="45" Margin="678,102,0,0" VerticalAlignment="Top" Width="42" Source="Assets/nemoFinal.png"                     />
+        <Image x:ConnectionId='8' x:Name="dump1" HorizontalAlignment="Left" Height="130" Margin="875,565,0,0" VerticalAlignment="Top" Width="143" Source="Assets/102.png"                       RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:ConnectionId='9' x:Name="dump1_Copy" HorizontalAlignment="Left" Height="130" Margin="875,301,0,0" VerticalAlignment="Top" Width="143" Source="Assets/103.png"                            RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:ConnectionId='10' x:Name="dump1_Copy1" HorizontalAlignment="Left" Height="130" Margin="529,565,0,0" VerticalAlignment="Top" Width="143" Source="Assets/102.png"                             RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:ConnectionId='11' x:Name="dump1_Copy2" HorizontalAlignment="Left" Height="130" Margin="48,409,0,0" VerticalAlignment="Top" Width="143" Source="Assets/102.png"                             RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <CompositeTransform/>
+            </Image.RenderTransform>
+        </Image>
+        <Image x:ConnectionId='12' x:Name="dump1_Copy4" HorizontalAlignment="Left" Height="181" VerticalAlignment="Top" Width="233" Source="Assets/101.png"                             RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <TextBlock HorizontalAlignment="Left" Margin="982,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="115" Foreground="#FFF10E0E" FontSize="40" Text="Time:"/>
+        <TextBlock x:Name="timer1" HorizontalAlignment="Left" Margin="1097,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="61" Width="127" Foreground="#FFF10E0E" FontSize="40"/>
+        <Ellipse x:Name="bubble1" HorizontalAlignment="Left" Height="66" Margin="369,629,0,0" VerticalAlignment="Top" Width="71" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Bubble-clip-art-15.png"/>
+            </Ellipse.Fill>
+            <Ellipse.RenderTransform>
+                <CompositeTransform/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="bubble2" HorizontalAlignment="Left" Height="38" Margin="440,597,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Bubble-clip-art-15.png"/>
+            </Ellipse.Fill>
+            <Ellipse.RenderTransform>
+                <CompositeTransform/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Ellipse x:Name="bubble3" HorizontalAlignment="Left" Height="37" Margin="453,647,0,0" VerticalAlignment="Top" Width="40" RenderTransformOrigin="0.5,0.5">
+            <Ellipse.Fill>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/Bubble-clip-art-15.png"/>
+            </Ellipse.Fill>
+            <Ellipse.RenderTransform>
+                <CompositeTransform/>
+            </Ellipse.RenderTransform>
+        </Ellipse>
+        <Image x:ConnectionId='13' x:Name="dump1_Copy3" HorizontalAlignment="Left" Height="226" Margin="0,597,0,-55" VerticalAlignment="Top" Width="296" Source="Assets/105.png"                             RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <!--<AppBar Margin="0,667,0,0">-->
+
+        <!--<StackPanel Orientation="Horizontal" Margin="10,0,0,0">-->
+        <Rectangle x:Name="menu" HorizontalAlignment="Left" Height="139" Margin="0,629,0,0" VerticalAlignment="Top" Width="1366" Fill="#7F000000"/>
+
+        <Button x:ConnectionId='14' x:Name="Retry" Content="Retry" Height="80" Width="220" Margin="1048,681,0,7" Background="#FFC10000" ClickMode="Press"                      />
+        <Button x:ConnectionId='15' x:Name="Exit" Content="Exit" Height ="80" Width="220" Margin="800,681,0,7" Background="#FFC10000" ClickMode="Press"                     />
+
+        <!--</StackPanel>-->
+
+        <!--</AppBar>-->
+
+    </Grid>
+</Page>
+
